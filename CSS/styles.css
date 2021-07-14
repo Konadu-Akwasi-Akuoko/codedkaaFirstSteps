@@ -1,15 +1,22 @@
 body {
   background-color: lightgray;
+  color: inherit;
 }
 
 h1 {
-  color: orange;
+  color: brown;
+  background-color: inherit;;
+  margin: 49px;
+  border: 2px solid white;
 }
 
 h2 {
-  color: green;
+  color: yellow;
+  background-color: inherit;
+  margin: 30px;
 }
 
 p {
-  font-family: verdana;
-  border: 2px solid white}
+  font-family: verdana, sans-serif;
+  border: 2px solid white;
+}
