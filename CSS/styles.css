@@ -5,7 +5,8 @@ body {
 
 h1 {
   color: brown;
-  background-color: inherit;;
+  background-color: inherit;
+  ;
   margin: 49px;
   border: 2px solid white;
 }
@@ -19,4 +20,53 @@ h2 {
 p {
   font-family: verdana, sans-serif;
   border: 2px solid white;
+}
+
+table{
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  background-color: inherit;
+  color: red;
+  border: 2px solid black;
+}
+
+td {
+  text-align: left;
+  border: 2px solid black;
+  padding: 8px;
+}
+
+.td1 {
+  color: green;
+  background-color: white;
+}
+
+.topBar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  color: inherit;
+}
+
+.topList{
+  float: left;
+}
+
+.topList a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  background-color: inherit;
+}
+
+.topList a:hover{
+  background-color: #111111;
 }
