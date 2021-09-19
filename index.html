@@ -10,12 +10,15 @@
 
 <body>
 
+<div class="topBar">
   <ul class="topBar">
     <li class="topList"> <a href="#Home">Home</a></li>
     <li class="topList"> <a href="#Blog">Blog</a></li>
     <li class="topList"> <a href="#About">About</a></li>
     <li class="topList"> <a href="#Contact">Contact</a></li>
   </ul>
+</div>
+
   <h1 id="MyFirstHeader">Lorem ipsum dolor sit amet.</h1>
 
   <p>Consectetur adipisicing elit, sed do eiusmod
@@ -58,7 +61,11 @@
   <br>
   <table style="width:100%" id="table1">
     <caption>Family members</caption>
-    <tr class="td1">
+    <col span="1">
+    <!--The whole row of this table will be yellow, because of the background
+    colour attribut.-->
+    <col span="2" class="columnSpanLast2">
+    <tr class="td1 columnSpanLast2">
       <th>Name</th>
       <th>Age</th>
       <th>Sex</th>

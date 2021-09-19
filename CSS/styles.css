@@ -69,4 +69,11 @@ td {
 
 .topList a:hover{
   background-color: #111111;
+    color: inherit;
+}
+
+.columnSpanLast2{
+  visibility: visible;
+  background-color: #19CAFF;
+  color: inherit;
 }
